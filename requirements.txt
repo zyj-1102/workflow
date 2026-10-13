@@ -1,0 +1,6 @@
+# Core dependencies — none required! The MVP runs with the mock LLM out of the box.
+# Just run: python run_demo.py
+
+# Optional: for real LLM support via OpenAI-compatible API
+# Install with: pip install -r requirements.txt
+openai>=1.0.0

@@ -56,12 +56,3 @@ pip install -r requirements.txt
 set OPENAI_API_KEY=sk-xxx
 python main.py
 ```
-
-## 评审标准覆盖
-
-| 维度 | 权重 | 实现情况 |
-|------|------|----------|
-| 流程完整性 | 40% | 端到端跑通：编码→审查→修复→复审通过 |
-| Agent 协作 | 30% | 消息传递 + 共享状态，3 个 Agent 协作 |
-| 可扩展性 | 20% | BaseAgent 接口 + 路由函数，易于新增 Agent |
-| 文档 | 10% | README.md + Design.md（含流程图、架构说明） |
